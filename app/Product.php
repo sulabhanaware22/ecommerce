@@ -21,13 +21,6 @@ class Product extends Model
   
     }
     public static function getUserProducts($page=''){  
-      // if(isset($page) && $page != ''){
-      //  $page= $page-1;
-      // }else{
-      //  $page=0;
-      // }
-      //print_r($page);
-     // exit();
       $result= Product::query()
                ->leftjoin('category as C', 'C.id', '=', 'products.category_id')
                ->where('products.deleted_flag',0)
