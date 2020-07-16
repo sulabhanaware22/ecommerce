@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Apr, 2020, 3:01:19 PM
+    Author     : DELL
+*/
+.theme-button,.theme-button:hover{
+    background-color: #EA5252;
+    border: none;
+    padding: 0.5rem 2rem;
+    font-weight: 300px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+}
+.theme-seaparator{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:thin solid #ced4da;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+}
+.theme-anchor,.theme-anchor:hover{
+    color:  #EA5252 !important; 
+    text-decoration: underline;
+    text-decoration-color:  #EA5252 !important;
+}
+.bg-dark{
+    background-color: #EA5252 !important; 
+}
+nav .nav-link {
+    color: black !important; 
+}
+.theme-card{
+    /*    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);*/
+}
+.box {
+    padding: 0 5px 0 5px;
+}
+.box .inner {
+    background-color: #fff;
+}
+.background-image{
+    background-image: url("banner_image01.jpg"); 
+    background-color: #cccccc;
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+}
+@media only screen and (max-width:600px){
+    .theme-banner-customization{
+        position: relative;
+        top:42%;
+        left:5%;
+    } 
+    .theme-card-image{
+        width: 90%;
+        height: 80%;
+    } 
+}
+@media only screen and (min-width: 768px){
+    .theme-banner-customization{
+        position: relative;
+        top:42%;
+        left:12%;
+    } 
+    .theme-card-image{
+        width: 80%;
+        height: 100%;
+    }   
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .theme-banner-customization{
+        position: relative;
+        top:60%;
+        left:12%;
+    }
+    .theme-card-image{
+        width: 80%;
+        height: 100%;
+        border:8px solid #5D414F;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .theme-banner-customization{
+        position: relative;
+        top:60%;
+        left:12%;
+    } 
+    .theme-card-image{
+        width: 80%;
+        height: 100%;
+        border:8px solid #5D414F;
+    }
+}
+/*.theme-card-image{
+    width: 100%;
+    height: 100%;
+    border:8px solid #5D414F;
+}*/
+.home_grid2_image{
+    width: 100px;
+    height: 100px;
+    border:thin solid black;
+    margin-left: 1.7em;
+    margin-right: auto;
+}
+.home_grid2{
+    padding:5px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+    background-color: #D0BAAD;
+}
+.home_grid3{
+    padding:5px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+    background-color: #E2DCCC !important;
+}
+.theme-product_list_row{
+    margin-top: 20px;
+    font-size:12px;
+}
+.carousel-inner > .carousel-item > img {
+    height: 40% !important;
+}
+@media(min-width:992px){
+    .navbar-nav > li{
+        padding-left:30px;
+        padding-right:30px;
+    }   
+}
+@media(max-width:480px){
+    .home_grid2,.home_grid3{
+        margin-top: 20px;
+    }
+}
